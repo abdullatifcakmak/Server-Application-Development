@@ -1,11 +1,26 @@
-GL - Adisyon Sistemi
+# 🍽️ GL - Adisyon Sistemi
 
+Basit, işlevsel ve geliştirilebilir bir **Adisyon Takip Sistemi**.
 
-Bu projede ne yapılabilir ?
+---
 
-- Bir masa ekleyebilirsiniz.
-- Bu eklenen masaya sipariş eklenebilir.
-- Bu masada bir sipariş varsa ve yeni sipariş eklenirse fiyat güncellemesi yapılır.
-- Eklenen masanın ödemesi yapılabilir.
-- Masa yoksa, ödeme negatifse, veya olmayan masaya sipariş eklenmek isteniyorsa.. gibi işlemlerde hata kodları ve hata mesajları yazdırılır.
+## 🚀 Neler Yapılabilir?
 
+- ✅ Yeni bir **masa** ekleyebilirsiniz.
+- 🧾 Eklenen masaya **sipariş** girilebilir.
+- 🔁 Aynı masaya yeni sipariş eklendiğinde, **fiyat güncellenir**.
+- 💵 Masanın **ödemesi** yapılabilir.
+- 🛑 Hatalı işlemlerde sistem otomatik olarak **uyarı ve hata kodları** üretir:
+  - ❌ Olmayan masaya sipariş
+  - ❌ Negatif ödeme
+  - ❌ Var olmayan masaya erişim
+
+---
+
+## ⚙️ Özellikler
+
+- RESTful API yapısı
+- Temiz kod ve okunabilir endpoint'ler
+- Hata yönetimi ve açıklayıcı mesajlar
+- Geliştirmeye açık mimari
+- 📦 **Veritabanı betikleri** `db/` klasörü içinde yer almaktadır.
